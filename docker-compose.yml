@@ -6,6 +6,6 @@ services:
     ports:
       - "80:80"
   rest:
-    image: adtd/rest:stage
+    image: shubham1436/rest
     ports:
       - "8080"
