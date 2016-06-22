@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  web:
+    image: shubham1436/web
+    ports:
+      - "80:80"
+  rest:
+    image: adtd/rest:stage
+    ports:
+      - "8080"

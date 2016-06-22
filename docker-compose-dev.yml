@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  web:
+    build: web
+    ports:
+      - "80:80"
+  rest:
+    build: java
+    ports:
+      - "8080"
