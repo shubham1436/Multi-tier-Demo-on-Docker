@@ -2,7 +2,7 @@ version: '2'
 
 services:
   web:
-    image: shubham1436/web
+    image: shubham1436/web:1.0
     ports:
       - "80:80"
   rest:
